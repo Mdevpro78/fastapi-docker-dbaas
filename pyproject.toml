@@ -9,3 +9,8 @@ cache-dir = "./.uv_cache"
 
 [tool.uv.pip]
 strict = true
+
+[dependency-groups]
+lint = [
+    "pre-commit>=4.2.0",
+]
